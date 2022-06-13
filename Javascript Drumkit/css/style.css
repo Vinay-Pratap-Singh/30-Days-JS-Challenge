@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(190, 155, 89), rgb(113, 97, 4));
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    color: white;
+    height: 20%;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin: 15px 30px;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    font-weight: 800;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.animation{
+    border: 5px solid rgb(228, 23, 191);
+    font-weight: 900;
+    font-size: 1.8rem;
+    transform: scale(1.2);
+}
